@@ -1,7 +1,7 @@
 {
   "name": "@maidang606/utils",
   "version": "0.0.1",
-  "description": "",
+  "description": "Common utility functions",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "private":false,
@@ -17,9 +17,13 @@
     "build": "tsup src/index.ts --format cjs,esm --dts --minify --clean",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["utils"],
+  "author": "maidang@felixwliu.cn",
+  "license": "MIT",
+  "homepage": "https://github.com/Maidang1/utils",
+  "repository": {
+    "url": "https://github.com/Maidang1/utils"
+  },
   "devDependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
