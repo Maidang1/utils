@@ -24,12 +24,18 @@
   "license": "MIT",
   "homepage": "https://github.com/Maidang1/utils",
   "repository": {
-    "url": "https://github.com/Maidang1/utils"
+    "url": "git+https://github.com/Maidang1/utils.git"
   },
   "devDependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "readme.md",
+    "tsconfig.json"
+  ],
   "dependencies": {
     "youch": "^3.3.3",
     "youch-terminal": "^2.2.3"
