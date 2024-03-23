@@ -1,23 +1,25 @@
 {
   "name": "@maidang606/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common utility functions",
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
-  "private":false,
-  "exports":{
+  "private": false,
+  "exports": {
     ".": {
-      "types":"./dist/index.d.mts",
+      "types": "./dist/index.d.mts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js",
-      "default":"./dist/index.js"
+      "default": "./dist/index.js"
     }
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --minify --clean",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
   },
-  "keywords": ["utils"],
+  "keywords": [
+    "utils"
+  ],
   "author": "maidang@felixwliu.cn",
   "license": "MIT",
   "homepage": "https://github.com/Maidang1/utils",
@@ -27,5 +29,9 @@
   "devDependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "youch": "^3.3.3",
+    "youch-terminal": "^2.2.3"
   }
 }
